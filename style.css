@@ -1,0 +1,210 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  background-color: #232f3e;
+  height: 100px;
+}
+
+footer {
+  clear: both;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#nav-upnav {
+  background-color: #F6F6F6;
+  text-align: left;
+  background-position: top left;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 1920px;
+  min-width: 1000px;
+}
+header img {
+  height: 100px;
+  width: 210px;
+}
+#custom-search-input {
+  position: absolute;
+  display: inline-block;
+  margin-top: 10px;
+}
+.input-group {
+  width: 100%;
+}
+.search-query {
+  width: 600px;
+  height: 33px;
+}
+.btn-danger {
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  height: 33px;
+  left: -5px;
+  padding-bottom: 13px;
+  border-radius: 0 5px 5px 0;
+  border: orange;
+  background-color: orange;
+}
+.browse {
+  display: inline-block;
+  font-size: 14px;
+}
+.browse a {
+  color: lightgray;
+  padding-right: 15px;
+  float: left;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.rightheader {
+  display: inline-block;
+  font-size: 14px;
+  float: right;
+  margin-top: -32px;
+  margin-right: 9px;
+}
+.rightheader a {
+  display: inline-block;
+  color: lightgray;
+  text-decoration: none;
+}
+#schoolDeals {
+   width: 400px;
+   height: 39px;
+   overflow: hidden;
+   position: relative;
+   float: right;
+   margin-top: 10px;
+}
+#outlanderImage > img {
+  width: 100%;
+  height: 290px;
+}
+section {
+  display: inline;
+  width: 20%;
+  height: 300px;
+  border: 5px solid lightgray;
+}
+.haley, .prime, .fresh, .video, .music {
+  display: inline-block;
+  float: left;
+}
+.haley img {
+  width: 50px;
+  border-radius: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+.haley h2 {
+  float: right;
+  margin-right: 80px;
+}
+h4:first-of-type {
+  float: right;
+  margin-right: 20px;
+  margin-top: -10px;
+  color: #879596;
+}
+h4:nth-of-type(2) {
+  margin-top: 90px;
+  color: #879596;
+  padding-left: 10px;
+}
+h4:nth-of-type(3) {
+  color: #879596;
+  padding-left: 10px;
+}
+.haley p {
+  padding-left: 10px;
+}
+.prime, .fresh, .video, .music {
+  padding-left: 15px;
+}
+.prime h2 {
+  border-bottom: 5px solid #82D8E3;
+  margin-right: 20px;
+}
+.fresh h2 {
+  border-bottom: 5px solid #ADE422;
+  margin-right: 20px;
+}
+.video h2 {
+  border-bottom: 5px solid #FFA724;
+  margin-right: 20px;
+}
+.music h2 {
+  border-bottom: 5px solid #82D8E3;
+  margin-right: 20px;
+}
+p {
+  margin-top: -15px;
+  font-size: 13px;
+}
